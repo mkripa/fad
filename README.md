@@ -16,7 +16,8 @@ After downloading the dataset, convert the audio files to .wav format and place 
 
 ## Supervised Fine-tuning
 
-sft/sft_gemma.ipynb demonstrates LoRA-based SFT pipeline for Gemma-3N using ASVspoof dataset.
+_sft/sft_gemma.ipynb_ demonstrates LoRA-based SFT pipeline for Gemma-3N using ASVspoof dataset.
+
 For Qwen, the fine-tuning and experimental setup follow the approach described in: https://arxiv.org/pdf/2505.11079 
 
 ---
