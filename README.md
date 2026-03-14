@@ -55,7 +55,11 @@ The system implements a four-stage modular workflow:
 
 ### 1) Supervised Fine-Tuning (SFT)
 
+- _sft/sft_gemma.ipynb_
+  
 ### 2) Model Evaluation & Prediction Export
+
+- _evaluate.py_
 
 ### 3) Acoustic Feature Extraction (openSMILE)
 
@@ -65,7 +69,7 @@ The system implements a four-stage modular workflow:
 ### 4) Surrogate Modeling + Explainability (XAI Layer)
 
 Surrogate model:
-- Random Forest (scikit-learn)
+- Random Forest
 
 Explainability methods:
 - **SHAP** (TreeExplainer): global feature attribution across the dataset
