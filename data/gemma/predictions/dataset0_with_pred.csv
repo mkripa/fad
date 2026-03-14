@@ -1,0 +1,6 @@
+audio_path,pred_label
+/data/asvspoof/test/fake/LA_E_5528243.wav,1
+/data/asvspoof/test/fake/LA_E_7021090.wav,1
+/data/asvspoof/test/fake/LA_E_5756546.wav,1
+/data/asvspoof/test/fake/LA_E_8737558.wav,1
+/data/asvspoof/test/real/LA_E_5399550.wav,0

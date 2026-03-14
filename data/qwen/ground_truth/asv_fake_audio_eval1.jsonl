@@ -1,0 +1,5 @@
+{"messages": [{"role": "user", "audio": "/content/drive/MyDrive/299A/2025_10_08/convert/ASVspoof2019_LA_eval/wav/LA_E_6828287.wav", "content": "Is this audio real or fake?"}, {"role": "assistant", "content": "Fake."}]}
+{"messages": [{"role": "user", "audio": "/content/drive/MyDrive/299A/2025_10_08/convert/ASVspoof2019_LA_eval/wav/LA_E_6977360.wav", "content": "Is this audio real or fake?"}, {"role": "assistant", "content": "Fake."}]}
+{"messages": [{"role": "user", "audio": "/content/drive/MyDrive/299A/2025_10_08/convert/ASVspoof2019_LA_eval/wav/LA_E_5932896.wav", "content": "Is this audio real or fake?"}, {"role": "assistant", "content": "Fake."}]}
+{"messages": [{"role": "user", "audio": "/content/drive/MyDrive/299A/2025_10_08/convert/ASVspoof2019_LA_eval/wav/LA_E_5849185.wav", "content": "Is this audio real or fake?"}, {"role": "assistant", "content": "Real."}]}
+{"messages": [{"role": "user", "audio": "/content/drive/MyDrive/299A/2025_10_08/convert/ASVspoof2019_LA_eval/wav/LA_E_6163791.wav", "content": "Is this audio real or fake?"}, {"role": "assistant", "content": "Fake."}]}

@@ -1,0 +1,47 @@
+model:
+  name: "gemma" 
+
+
+pred_source:
+  mode: "csv_labels" # json_scores / csv_labels
+  path: "/data/gemma/predictions/dataset0_with_pred.csv" # / "/data/predictions/temp_checkpoint-3173.json"
+
+ground_truth:
+  #   "jsonl" with labels or "folder" with sub-folders "real/" and "fake/" containing .wav files correspondingly
+  mode: "folder" # "jsonl" / "folder"
+  path: "/data/asvspoof/test" # / "/data/ground_truth/asv_fake_audio_eval1.jsonl"
+
+sampling:
+  max_per_class: 500
+  seed: 42
+  sampling_rate: 16000
+
+
+features:
+  output_csv: "/data/features/audio_features_with_binary_preds.csv" # CSV output of extract_features.py
+  opensmile_feature_set: "eGeMAPSv02"
+  opensmile_feature_level: "Functionals"
+
+
+surrogate:
+  model_path: "/data/models/random_forest_model.pkl"
+
+  test_size: 0.2
+  random_state: 42
+
+  n_estimators: 200
+  max_depth: 10
+
+
+explainability:
+  shap_top_n: 20
+  shap_max_display: 10
+
+  lime_sample_indices: [40, 45, 189]
+  lime_num_features: 10
+
+
+outputs:
+  plots_dir: "/data/outputs/plots"
+  lime_dir: "/data/outputs/lime"
+  file_prefix: "fad_eval"
