@@ -81,7 +81,7 @@ The pipeline is model-agnostic and can be applied to any multimodal LLM that sup
 ### Demonstrated Models
 
 
-| Model    | Fine-Tuned in This Repo      |  Explainability Applied |
+| Model    | Fine-Tuning Script           |  Explainability Applied |
 |----------|------------------------------|-------------------------|
 | Gemma-3N | ✅                           | ✅                      |
 | Qwen     | (obtained from prior work)   | ✅                      |
