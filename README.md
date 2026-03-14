@@ -78,7 +78,7 @@ Explainability methods:
 ---
 
 The pipeline is model-agnostic and can be applied to any multimodal LLM that supports audio input.
-### Demonstrated Models
+### Experiments
 
 
 | Model    | Fine-Tuning Script           |  Explainability Applied |
